@@ -7,8 +7,6 @@ const Footer = () => {
           <h3 className="text-lg font-semibold">Información de Contacto</h3>
           <p>Teléfono: (123) 456-7890</p>
           <p>Correo Electrónico: <a className="hover:text-red-600 duration-1000" href="mailto:info@manabou.com<">info@manabou.com</a></p>
-          <p>Ciudad Autónoma de Buenos Aires</p>
-          <p>Argentina</p>
         </div>
         <div className="w-full md:w-1/3 mb-4 md:mb-0 mt-2 sm:mt-0 ml-4 sm:ml-0 flex flex-col">
           <p className="mx-auto">Manabou.</p>
