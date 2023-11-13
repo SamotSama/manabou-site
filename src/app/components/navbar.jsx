@@ -22,8 +22,8 @@ const Navbar = () => {
               {isMenuOpen ? '✖' : '☰'}
             </button>
             {isMenuOpen && (
-              <div className="absolute text-center right-0 mt-4 bg-gray-700 text-white rounded-sm">
-                <a href="#link1" className="block text-xl px-20 py-2 hover:bg-gray-500 duration-1000">Institutos</a>
+              <div className="absolute text-center right-0 mt-4 bg-gray-700 text-white rounded-md">
+                <a href="#institutos" className="block text-xl px-20 py-2 hover:bg-gray-500 duration-1000">Institutos</a>
                 <a href="#link2" className="block text-xl px-20 py-2 hover:bg-gray-500 duration-1000">Material</a>
                 <a href="#link3" className="block text-xl px-20 py-2 hover:bg-gray-500 duration-1000" style={{ whiteSpace: 'nowrap' }}>Cursos y Videos</a>
               </div>
