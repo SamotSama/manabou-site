@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from "react";
 
 const Steps = ({ numero, iconoSrc, titulo, texto }) => {
   return (

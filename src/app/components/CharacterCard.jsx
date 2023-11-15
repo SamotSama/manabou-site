@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const CharacterCard = ({ hiragana, katakana, romaji }) => {
   const [displayHiragana, setDisplayHiragana] = useState(true);
-  const [backgroundColor, setBackgroundColor] = useState('#374151');
+  const [backgroundColor, setBackgroundColor] = useState("#374151");
 
   const handleClick = () => {
     setDisplayHiragana(!displayHiragana);
-    setBackgroundColor(backgroundColor === '#374151' ? 'white' : '#374151');
+    setBackgroundColor(backgroundColor === "#374151" ? "white" : "#374151");
   };
 
   return (
@@ -17,10 +17,16 @@ const CharacterCard = ({ hiragana, katakana, romaji }) => {
       onClick={handleClick}
       style={{ backgroundColor }}
     >
-      <div className={`text-6xl text-center font-bold ${displayHiragana ? 'text-amber-50' : 'text-gray-700'}`}>
+      <div
+        className={`text-6xl text-center font-bold ${
+          displayHiragana ? "text-amber-50" : "text-gray-700"
+        }`}
+      >
         {displayHiragana ? hiragana : katakana}
       </div>
-      <div className="text-lg mt-2 font-semibold text-red-500 text-center">{romaji}</div>
+      <div className="text-lg mt-2 font-semibold text-red-500 text-center">
+        {romaji}
+      </div>
     </div>
   );
 };
