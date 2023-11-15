@@ -1,17 +1,17 @@
-"use client"
-
 import React from 'react';
 import NavBar from '../components/NavBar';
+import Header from '../components/Header';
 import Subscription from '../components/Suscription';
 import Footer from '../components/Footer';
-import Map from '../components/Map'
+import Full from '../components/FullSteps';
 
 
 const Home = () => {
   return (
-    <div className=' bg-amber-50'>
+    <div>
       <NavBar />
-      <Map />
+      <Header />
+      <Full />
       <Subscription />
       <Footer />
     </div>
@@ -19,4 +19,3 @@ const Home = () => {
 };
 
 export default Home;
-

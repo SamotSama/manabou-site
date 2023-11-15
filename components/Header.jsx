@@ -8,7 +8,7 @@ const Header = () => {
           <h2 className="text-7xl font-bold mt-8">
             Descubre el mundo del japonés con{" "}
             <a
-              href="#"
+              href="index"
               className="duration-1000 hover:bg-red-600 hover:text-white hover:rounded-2xl"
             >
               Manabou.
@@ -23,7 +23,7 @@ const Header = () => {
           </p>
         </div>
         <div>
-          <img
+          <img  
             src="/girl.jpg"
             alt="BannerImg"
             className="w-5/6 h-5/6 object-cover rounded-2xl ml-auto mt-12"

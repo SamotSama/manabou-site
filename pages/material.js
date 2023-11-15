@@ -1,8 +1,8 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
-import Subscription from '../components/Suscription';
-import Footer from '../components/Footer';
-import CharacterCard from '../components/CharacterCard'
+import NavBar from '../components/NavBar.jsx';
+import Subscription from '../components/Suscription.jsx';
+import Footer from '../components/Footer.jsx';
+import CharacterCard from '../components/CharacterCard.jsx'
 
 const Home = () => {
   const hiraganaCharacters = [
