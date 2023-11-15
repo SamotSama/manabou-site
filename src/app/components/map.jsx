@@ -67,18 +67,18 @@ const Map = () => {
   }, []);
 
   return (
-    <section className="container mx-auto mt-8 my-8 flex flex-wrap text-gray-700">
+    <section id="institutos" className="container static mx-auto mt-16 flex flex-wrap text-gray-700">
       <div className="w-full sm:w-1/2 pr-4 sm:pr-8 mt-2 sm:mt-0 ml-4 sm:ml-0">
-        <h2 className="text-2xl font-semibold text-gray-700">Listado de Institutos</h2>
-        <p className="">En este mapa interactivo podras encontrar los mejores Institutos de CABA.</p>
+        <h2  className="text-6xl font-semibold text-gray-700 ">Listado de Institutos</h2>
+        <p className="text-2xl">En este mapa interactivo podras encontrar los mejores Institutos de CABA.</p>
       </div>
       <div className="w-full sm:w-1/2 mt-2 sm:mt-0 ml-4 sm:ml-0">
-        <h3 className="text-2xl font-semibold">Proximamente añadiremos del resto del país.</h3>
+        <h3 className="text-2xl ">Proximamente añadiremos del resto del país.</h3>
       </div>
       <div
         ref={mapContainerRef}
-        style={{ width: '100%', height: '700px' }}
-        className="w-full my-8 rounded-lg"
+        style={{ width: '100%', height: '700px', zIndex: '1'}}
+        className="w-full my-8 rounded-lg border-gray-700 border-2"
       ></div>
     </section>
   );

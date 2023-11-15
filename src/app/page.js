@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from './components/navbar';
-import Header from './components/header';
+import NavBar from './components/NavBar';
+import Header from './components/Header';
 import Subscription from './components/Suscription';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 import Full from './components/FullSteps';
-import Map from './components/map';
+import Map from './components/Map';
 
 
 const Home = () => {
@@ -12,9 +12,8 @@ const Home = () => {
     <div className='scroll-smooth bg-amber-50'>
       <NavBar />
       <Header />
-      <Subscription />
       <Full />
-      <Map id="institutos" />
+      <Map />
       <Subscription />
       <Footer />
     </div>

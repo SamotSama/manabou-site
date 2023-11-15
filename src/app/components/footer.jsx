@@ -9,9 +9,9 @@ const Footer = () => {
           <p>Correo Electrónico: <a className="hover:text-red-600 duration-1000" href="mailto:info@manabou.com<">info@manabou.com</a></p>
         </div>
         <div className="w-full md:w-1/3 mb-4 md:mb-0 mt-2 sm:mt-0 ml-4 sm:ml-0 flex flex-col">
-          <p className="mx-auto">Manabou.</p>
-          <p className="mx-auto text-xl">®</p>
-          <p className="mx-auto">2023</p>
+          <p className="mx-auto">Manabou. 2023</p>
+          <p className="mx-auto">Todos los derechos reservados.</p>
+          <p className="mx-auto"></p>
         </div>
         <div className="w-full md:w-1/3 mb-4 md:mb-0 mt-2 sm:mt-0 ml-4 sm:ml-0 flex flex-col items-end">
           <h3 className="text-lg font-semibold mb-2">Redes Sociales</h3>
