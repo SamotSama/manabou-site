@@ -54,7 +54,7 @@ const Home = () => {
       { hiragana: 'ん', katakana: 'ン', romaji: 'n', animationUrl: 'url/n.gif' },
     ];
   return (
-    <div className='bg-amber-50'>
+    <div>
       <NavBar />
       <h2 id="material" className="text-6xl font-bold mx-auto py-8 text-gray-700 text-center">Hiragana y Katakana</h2>
       <div className="grid grid-cols-5 gap-4 py-4 px-40 select-none">

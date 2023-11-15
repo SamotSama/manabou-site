@@ -1,14 +1,14 @@
 "use client"
 
 import React from 'react';
-import NavBar from '/src/app/components/NavBar.jsx';
-import Subscription from '/src/app/components/Suscription.jsx';
-import Footer from '/src/app/components/Footer.jsx';
+import NavBar from '../components/NavBar';
+import Subscription from '../components/Suscription.jsx';
+import Footer from '../components/Footer.jsx';
 
 
 const Home = () => {
   return (
-    <div className=' bg-amber-50'>
+    <div>
       <NavBar />
 
       <Subscription />

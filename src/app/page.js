@@ -4,7 +4,6 @@ import Header from './components/Header';
 import Subscription from './components/Suscription';
 import Footer from './components/Footer';
 import Full from './components/FullSteps';
-import Map from './components/Map';
 
 
 const Home = () => {
