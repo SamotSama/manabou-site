@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className="bg-amber-50 text-gray-700  h-5/6 flex items-center">
+    <div className="text-gray-700  h-5/6 flex items-center">
       <div className="container mx-auto flex items-center justify-between">
       <div>
         <h2 className="text-7xl font-bold mt-8">Descubre el mundo del japonés con <a href='#' className='duration-1000 hover:bg-red-600 hover:text-white hover:rounded-2xl'>Manabou.</a></h2>

@@ -56,8 +56,8 @@ const Home = () => {
   return (
     <div className='bg-amber-50'>
       <NavBar />
-      <h2 id="material" className="text-6xl font-bold mx-auto py-4 text-gray-700 text-center">Hiragana y Katakana</h2>
-      <div className="grid grid-cols-5 gap-4 py-4 px-40">
+      <h2 id="material" className="text-6xl font-bold mx-auto py-8 text-gray-700 text-center">Hiragana y Katakana</h2>
+      <div className="grid grid-cols-5 gap-4 py-4 px-40 select-none">
       {hiraganaCharacters.map((character) => (
         <CharacterCard
           key={character.hiragana}

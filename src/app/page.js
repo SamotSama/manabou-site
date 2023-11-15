@@ -9,11 +9,10 @@ import Map from './components/Map';
 
 const Home = () => {
   return (
-    <div className='scroll-smooth bg-amber-50'>
+    <div>
       <NavBar />
       <Header />
       <Full />
-      <Map />
       <Subscription />
       <Footer />
     </div>

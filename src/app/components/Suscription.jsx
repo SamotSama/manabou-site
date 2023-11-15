@@ -2,7 +2,7 @@ import React from 'react';
 
 const Subscription = () => {
   return (
-    <div className="bg-amber-50 py-16">
+    <div className= "py-16">
       <div className="container mx-auto text-center">
         <p className="text-2xl font-semibold text-gray-700 mb-4">¡Ingresá tu email para recibir novedades!</p>
         <div className="flex text-gray-700 justify-center">
