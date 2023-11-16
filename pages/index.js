@@ -4,17 +4,18 @@ import Header from '../components/Header';
 import Subscription from '../components/Suscription';
 import Footer from '../components/Footer';
 import Full from '../components/FullSteps';
+import Layout from '../components/layout'
 
 
 const Home = () => {
   return (
-    <div>
-      <NavBar />
-      <Header />
-      <Full />
-      <Subscription />
-      <Footer />
-    </div>
+      <Layout>
+        <NavBar />
+        <Header />
+        <Full />
+        <Subscription />
+        <Footer />
+      </Layout>
   );
 };
 
