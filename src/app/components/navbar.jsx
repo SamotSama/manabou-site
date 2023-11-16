@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between mx-auto">
           <div className="text-3xl font-semibold hover:text-gray-600">
-            <a href="src">Manabou.</a>
+            <a href="/">Manabou.</a>
           </div>
           <div className="relative">
             <button

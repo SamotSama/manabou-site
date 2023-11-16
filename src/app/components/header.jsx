@@ -8,7 +8,7 @@ const Header = () => {
           <h2 className="text-7xl font-bold mt-8">
             Descubre el mundo del japonés con{" "}
             <a
-              href="#"
+              href="/"
               className="duration-1000 hover:bg-red-600 hover:text-white hover:rounded-2xl"
             >
               Manabou.
