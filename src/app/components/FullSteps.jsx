@@ -2,7 +2,7 @@ import React from "react";
 import Steps from "./Steps";
 const Full = () => {
   return (
-    <div className="flex text-gray-700 justify-between z">
+    <div className="flex text-gray-700 justify-between">
       <Steps
         numero={1}
         iconoSrc="light.svg"

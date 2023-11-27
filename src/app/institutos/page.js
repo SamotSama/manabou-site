@@ -9,7 +9,7 @@ import Map from '../components/Map'
 
 const Home = () => {
   return (
-    <div className=' bg-amber-50'>
+    <div >
       <NavBar />
       <Map />
       <Subscription />

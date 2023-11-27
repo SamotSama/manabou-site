@@ -13,7 +13,7 @@ const CharacterCard = ({ hiragana, katakana, romaji }) => {
 
   return (
     <div
-      className={`character-card p-4 border border-gray-300 cursor-pointer rounded-md`}
+      className={`character-card p-4 border border-gray-300 cursor-pointer rounded-md hover:animate-rotate-y animate-once hover:animate-duration-[2000ms]`}
       onClick={handleClick}
       style={{ backgroundColor }}
     >

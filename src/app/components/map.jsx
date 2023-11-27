@@ -202,7 +202,7 @@ const Map = () => {
       <div
         ref={mapContainerRef}
         style={{ width: "100%", height: "700px", zIndex: "1" }}
-        className="w-full my-8 rounded-lg border-gray-700 border-2"
+        className="w-full my-8 rounded-lg border-gray-700 border-2 animate-jump-in animate-once animate-duration-1000"
       ></div>
     </section>
   );

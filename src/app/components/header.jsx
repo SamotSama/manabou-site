@@ -26,7 +26,7 @@ const Header = () => {
           <img
             src="/girl.jpg"
             alt="BannerImg"
-            className="w-5/6 h-5/6 object-cover rounded-2xl ml-auto mt-12"
+            className="w-5/6 h-5/6 object-cover rounded-2xl ml-auto mt-12 "
           />
         </div>
       </div>
