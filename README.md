@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Manabou.</h1>
 
-## Getting Started
+**Manabou.** is a personal project, in which I want to capture the problems I had when I wanted to start my studies of the Japanese language. That is what this site aims to solve, its main intention is for the future student to learn how to start.
 
-First, run the development server:
+![Portfolio Screenshot](screenshot.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+##  Helpful Links
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<a href="https://manabou.vercel.app">Deploy</a>
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Manabou. consists of 4 sections:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ###  Homepage
+Where you can find an invitation to start your Japanese studies. The steps to efficiently learn Japanese are outlined, and below, there is a form to enter your email and subscribe to the newsletter.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- ### Institutes
+Where you can find detailed information about all the institutes available in the CABA area of Argentina, with plans to add institutes from the rest of the country later.
 
-## Deploy on Vercel
+- ### Material
+Which contains 46 cards featuring hiragana symbols. Clicking on each card reveals its corresponding katakana counterpart. More material will be added in the future.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ### Videos & Courses
+Where three videos are embedded, showcasing the top three courses to begin learning the Japanese language.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Tech Stack Used
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23f7df1e.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![Vercel](https://img.shields.io/badge/vercel-%23ffffff.svg?style=for-the-badge&logo=vercel&logoColor=black)
+
+## Contributions and Contact
+
+If you're interested in collaborating on projects or have any questions, feel free to reach out to me:
+
+- **Email:** halejandrorosa@gmail.com
+- **LinkedIn:** [Alejandro Rosa](https://www.linkedin.com/in/h-alejandro-rosa/)
+- **GitHub:** [SamotSama](https://github.com/SamotSama)
+- **Porftolio:** [Alejandro Rosa Dev](https://samotsama-dev.vercel.app)
+
