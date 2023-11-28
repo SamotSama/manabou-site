@@ -68,16 +68,16 @@ const Subscription = () => {
           ¡Ingresá tu email para recibir novedades!
         </p>
         <form onSubmit={handleSubmit}>
-          <div className="flex text-gray-700 justify-center">
+          <div className="flex text-gray-700 justify-center ">
             <input
               type="email"
               placeholder="Tu correo electrónico"
-              className="border-red-600 border-2 text-gray-700 p-2 rounded-l"
+              className="border-red-600 border-2 text-gray-700 p-2 rounded-l shadow-lg shadow-gray-700"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
             <button
-              className="bg-red-600 text-white px-4 rounded-r hover:scale-105 duration-1000"
+              className="bg-red-600 text-white px-4 rounded-r hover:scale-105 duration-1000 shadow-lg shadow-gray-700"
               type="submit"
             >
               Inscribite
