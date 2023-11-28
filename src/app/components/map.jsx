@@ -8,7 +8,7 @@ const Map = () => {
 
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyB72Ip-ZG3in0P_zvi8baQgudSb4DPLoV8&libraries=places`;
+    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAm_BTzTeINHsVlZlPLT4-37QQ23UAEJ-E&libraries=places`;
     script.defer = true;
     script.async = true;
 
