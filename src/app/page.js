@@ -1,19 +1,13 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
-import Header from '../components/Header';
-import Subscription from '../components/Suscription';
-import Footer from '../components/Footer';
-import Full from '../components/FullSteps';
+import Header from './components/Header';
+import Full from './components/FullSteps';
 
 
 const Home = () => {
   return (
     <div>
-      <NavBar />
       <Header />
       <Full />
-      <Subscription />
-      <Footer />
     </div>
   );
 };

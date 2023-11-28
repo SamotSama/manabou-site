@@ -1,4 +1,4 @@
-import ScrollToTopButton from "../../components/ScrollToTopButton"
+import ScrollToTopButton from "../components/ScrollToTopButton"
 
 export const metadata = {
   title: 'Manabou - Cursos y Videos',

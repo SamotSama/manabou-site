@@ -24,7 +24,7 @@ const Navbar = () => {
               {isMenuOpen ? "✖" : "☰"}
             </button>
             {isMenuOpen && (
-              <div className="absolute text-center right-0 mt-4 bg-gray-700 text-white rounded-md shadow-sm shadow-gray-700">
+              <div className="absolute text-center right-0 mt-4 bg-gray-700 text-white rounded-md shadow-lg shadow-gray-700">
                 <a
                   href="institutos"
                   className="block text-xl px-20 py-2 hover:bg-gray-500 duration-1000"
