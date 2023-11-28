@@ -1,8 +1,8 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
-import Subscription from '../components/Suscription';
-import Footer from '../components/Footer';
-import CharacterCard from '../components/CharacterCard'
+import NavBar from '../../components/NavBar';
+import Subscription from '../../components/Suscription';
+import Footer from '../../components/Footer';
+import CharacterCard from '../../components/CharacterCard'
 
 const Home = () => {
   const hiraganaCharacters = [
@@ -55,6 +55,7 @@ const Home = () => {
   ];
   return (
     <div>
+
       <NavBar />
       <h2 id="material" className="text-6xl font-bold mx-auto py-8 text-gray-700 text-center">Hiragana y Katakana</h2>
       <div className="grid grid-cols-5 gap-4 py-4 px-40 select-none">
@@ -69,6 +70,7 @@ const Home = () => {
       </div>
       <Subscription />
       <Footer />
+
     </div>
   );
 };
